@@ -1,0 +1,32 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.avatar-circle {
+    width: 100px;
+    /* Điều chỉnh kích thước tùy ý */
+    height: 100px;
+    /* Điều chỉnh kích thước tùy ý */
+    border-radius: 50%;
+    /* Làm cho ảnh tròn */
+    overflow: hidden;
+    /* Đảm bảo hình ảnh bên trong bị cắt thành hình tròn */
+}
+
+.avatar-circle img {
+    width: 100%;
+    /* Đảm bảo hình ảnh lấp đầy không gian bên trong hình tròn */
+    height: 100%;
+    /* Đảm bảo hình ảnh lấp đầy không gian bên trong hình tròn */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị biến đổi nguyên tử */
+}
